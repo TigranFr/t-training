@@ -1,0 +1,135 @@
+%trainbox{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 500px;
+        height: 170px;
+        border-radius: 10px;
+        color: black;
+        text-align: center;
+        margin-top: 25px;
+        cursor: pointer;
+        transition: transform 0.5s ease-in;
+        overflow: hidden;
+        text-decoration: none;
+        &:hover{
+            transform: scale(1.1);
+        }
+}
+
+
+%flex-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%flex-row-align{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    .header{
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    .allBodyBlock{
+        background-image: url('https://staticg.sportskeeda.com/editor/2022/11/777e9-16684235607233-1920.jpg');
+        @extend %trainbox
+    }
+    .lowerBodyBlock{
+        background-image: url('https://www.muscleandfitness.com/wp-content/uploads/2016/10/erik-legs.jpg?quality=86&strip=all');
+        @extend %trainbox
+    }
+    
+    .infoblock{
+        height: 100px;
+        margin-top:110px;
+        background-color: rgba(#fff , 0.4);
+        .infoblocktext{
+            font-size: 40px;
+            font-family: Space Grotesk;
+        }
+    }
+
+    .bicepsBeginner{
+        background-image: url('https://barbend.com/wp-content/uploads/2023/02/Barbend-Featured-Image-1600x900-A-person-performing-cable-biceps-curls.jpg');
+        @extend %flex-row-align;
+        @extend %trainbox;
+       
+    }
+
+    .bicepsIntermediate{
+        background-image: url('https://www.newbodyplan.co.uk/wp-content/uploads/2021/06/Advanced-tactics-biceps-size-strength.jpg');
+        @extend %flex-row-align;
+        @extend %trainbox;
+         justify-content: flex-end;
+    }
+
+    .bicepsAdvanced{
+        background-image: url('https://www.muscleandfitness.com/wp-content/uploads/2019/07/Juan-Morel-Preacher-Curl-Arms.jpg?quality=86&strip=all');
+        @extend %flex-row-align;
+        @extend %trainbox;
+    }
+
+    .pressBeginner{
+        @extend %flex-row-align;
+        @extend %trainbox;
+        background-image: url('https://www.bodybuilding.com/images/2018/april/the-best-ab-workout-for-a-six-pack-header-960x540.jpg')
+    }
+
+    .pressIntermediate{
+         justify-content: flex-end;
+        @extend %flex-row-align;
+        @extend %trainbox;
+        background-image: url('https://www.muscleandfitness.com/wp-content/uploads/2018/03/abs-outdoor-workout-1109.jpg?quality=86&strip=all');
+    }
+
+    .pressAdvanced{
+        background-image: url('https://abmachinesguide.com/wp-content/uploads/2017/08/advanced-ab-exercises.jpg');
+        @extend %flex-row-align;
+        @extend %trainbox;
+    }
+    .chestBeginner{
+         
+        @extend %flex-row-align;
+        @extend %trainbox;
+        background-image: url('https://barbend.com/wp-content/uploads/2023/02/Brarbend.com-Article-Image-A-person-doing-High-to-Low-Cable-Flye.jpg');
+    }
+
+    .chestIntermediate{
+        @extend %flex-row-align;
+        @extend %trainbox;
+        justify-content: flex-end;
+        background-image: url('https://allmaxnutrition.com/cdn/shop/articles/IMG_3822-1-1536x1023.jpg?v=1678818914&width=1500');
+    }
+
+    .chestAdvanced{
+        @extend %flex-row-align;
+        @extend %trainbox;
+        background-image: url('https://www.borntough.com/cdn/shop/articles/The_8_Best_Inner_Chest_Exercises_to_Build_a_Massive_Chest.jpg?v=1637678483');
+    }
+    .InfoBlock{
+        @extend %flex-row;
+        background-color: rgba(#fff , 0.4);
+        height: 70%;
+        width: 200px;
+        border-radius: 15px;
+        margin: 30px 0 20px 10px ;
+        .InfoBlockText{
+            font-size: 30px;
+        }
+    }
+    .header{
+        margin-right: 250px;
+    }
+  
+}   
+

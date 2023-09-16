@@ -1,0 +1,24 @@
+{
+  "exercises": [
+    {
+      "id": "2",
+      "name": "Tigran",
+      "count": "3",
+      "exactMuscle": "triceps",
+      "image": "",
+      "difficulty": "beginner",
+      "musclePart": "Press",
+      "instruction": "hello"
+    },
+    {
+      "id": "3",
+      "name": "Tigran",
+      "count": "3",
+      "exactMuscle": "triceps",
+      "image": "",
+      "difficulty": "intermediate",
+      "musclePart": "Biceps",
+      "instruction": "hello"
+    }
+  ]
+}

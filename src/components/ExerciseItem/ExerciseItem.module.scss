@@ -1,0 +1,17 @@
+.exerciseBlock{
+    width: 475px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    .infoBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+

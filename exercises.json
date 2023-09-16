@@ -1,0 +1,613 @@
+{
+  "Chest" : [
+    {
+      "id": 1,
+      "name" : "Push-up with support in front",
+      "count" : 10 ,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest"
+
+    },
+    {
+      "id": 2,
+      "name" : "Push up",
+      "count" : 8,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest"
+    },
+    {
+      "id": 3,
+      "name" : "Push-up with a wide focus",
+      "count" : 8,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest"
+    },
+    {
+      "id": 4,
+      "name" : "Reverse push-ups from a chair",
+      "count" : 10,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest"
+    },
+    {
+      "id": 5,
+      "name": "Push-up with a wide focus",
+      "count" : 6,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest"
+    },
+    {
+      "id": 6,
+      "name" : "Push-up with support in front",
+      "count" : 8 ,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest"
+    },
+    {
+      "id": 7,
+      "name" : "Push-ups with emphasis on the knees",
+      "count" : 8 ,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest"
+    },
+    {
+      "id": 8,
+      "name" : "Cobra",
+      "time" : "30s",
+      "difficulty" : "beginner",
+      "musclePart" : "Chest"
+    },
+
+
+    {
+      "id" : 9,
+      "name" : "Push-ups with emphasis on the knees",
+      "count" : 12 ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 10,
+      "name" : "Push-ups",
+      "count" : 12,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 11,
+      "name" : "Push-up with a wide focus",
+      "count" : 8,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 12,
+      "name" : "Indian push-ups",
+      "count" : 10,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 13,
+      "name" : "Push-ups in diagonal",
+      "count" : 12,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 14,
+      "name" : "Push-ups with rotation",
+      "count" : 10,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 15,
+      "name" : "Push-ups with emphasis on the knees",
+      "count" : 10 ,
+      "difficulty" : "intermediate" ,
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 16,
+      "name" : "Indian push-ups",
+      "count" : 10,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 17,
+      "name" : "Push-up with a back stop",
+      "count" : 12 ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest"
+    },
+
+
+    {
+      "id" : 18,
+      "name" : "Berpi",
+      "count" : 10,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 19,
+      "name" : "Push-ups in diagonal",
+      "count" : 16,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 20,
+      "name" : "Indian push-ups",
+      "count" : 16,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 21,
+      "name" : "Push-ups with rotation",
+      "count" : 12,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 22,
+      "name" : "Diamond push-ups",
+      "count" : 16,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 23,
+      "name" : "Indian push-ups",
+      "count" : 12,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 24,
+      "name" : "Spider-man push-ups",
+      "count" : 20,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 25,
+      "name" : "Push-up with a back stop",
+      "count" : 12 ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 26,
+      "name" : "Berpi",
+      "count" : 10,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest"
+    },
+    {
+      "id" : 27,
+      "name" : "Diamond push-ups",
+      "count" : 16,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest"
+    }
+ ]
+  ,
+  "Press" : [
+    {
+      "id" : 1,
+      "name" : "Swing",
+      "count" : 20,
+      "difficulty" : "beginner",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 2,
+      "name" : "ABC",
+      "count" : 16,
+      "difficulty" : "beginner",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 3,
+      "name" : "Mountaineer",
+      "count" : 16,
+      "difficulty" : "beginner",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 4,
+      "name" : "Lateral slopes to the feet",
+      "count" : 20,
+      "difficulty" : "beginner",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 5,
+      "name" : "Leg lifting",
+      "count" : 16,
+      "difficulty" : "beginner",
+      "musclePart" : "Press"
+    },
+    {
+      "id": 6,
+      "name" : "The bar",
+      "time" : "30s",
+      "difficulty" : "beginner",
+      "musclePart" : "Press"
+    },
+    {
+      "id": 7,
+      "name" : "Swing",
+      "count" : 36,
+      "difficulty" : "beginner",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 8,
+      "name" : "ABC",
+      "count" : 32,
+      "difficulty" : "beginner",
+      "musclePart" : "Press"
+    },
+
+
+    {
+      "id" : 9,
+      "name" : "Lateral slopes to the feet",
+      "count" : 26,
+      "difficulty" : "intermediate",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 10,
+      "name" : "Twisting with a rotation",
+      "count" : 20 ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 11,
+      "name" : "Mountaineer",
+      "count" : 20 , 
+      "difficulty" : "intermediate",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 12 ,
+      "name" : "Side bridge" ,
+      "count" : 12 ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 13,
+      "name" : "Buttock bridge",
+      "count" : 20 ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 14,
+      "name" : "Bicycle", 
+      "count" : 20 , 
+      "difficulty" : "intermediate",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 15 ,
+      "name" : "Angle",
+      "count" : 20,
+      "difficulty" : "intermediate",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 16,
+      "name" : "The bar",
+      "time" : "30s" ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Press"
+    },
+
+    
+    {
+      "id": 17,
+      "name" : "Lifting the body into the saddle",
+      "count" : 20 ,
+      "difficulty" : "advanced",
+      "musclePart" : "Press"
+    },
+    {
+      "id": 18,
+      "name" : "Side bridge",
+      "count" : 20 , 
+      "difficulty" : "advanced",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 19,
+      "name" : "ABC",
+      "count" : 30,
+      "difficulty" : "advanced",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 20,
+      "name" : "Bicycle",
+      "count" : 24 ,
+      "difficulty" : "advanced",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 21,
+      "name" : "The bar on the side",
+      "time" : "20s",
+      "difficulty" : "advanced",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 22,
+      "name" :  "Angle" ,
+      "count" : 18 ,
+      "difficulty" : "advanced",
+      "musclePart" : "Press"
+    },
+    {
+      "id": 23,
+      "name" : "Push up with rotation",
+      "count" : 24 ,
+      "difficulty" : "advanced" ,
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 24,
+      "name" : "Swing",
+      "count" : 48 ,
+      "difficulty" : "advanced",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 25,
+      "name" : "Lateral slopes to the feet",
+      "count" : 34,
+      "difficulty" : "advanced",
+      "musclePart" : "Press"
+    },
+    {
+      "id" : 26,
+      "name" : "Buttock bridge",
+      "count" : 30 ,
+      "difficulty" : "advanced",
+      "musclePart" : "Press"
+    }
+    
+  ]
+  , 
+  "Biceps" : [
+    {
+      "id" : 1 ,
+      "name" : "Hand rotation",
+      "time" : "30s",
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "chest",
+      "image" : "https://www.mz-store.com/blog/wp-content/uploads_en/2018/10/chest.jpg",
+      "instruction" : "Stand on the floor, stretch your arms at shoulder level, raise your arms above your head and return to the old position again",
+      "route" : "BicepsBeginner"
+    },
+    {
+      "id" : 2,
+      "name" : "Raising arms to the side",
+      "time" : "30s",
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "shoulders",
+      "image" : "https://cdn.britannica.com/36/113036-050-C0584B92/Muscles-shoulder.jpg",
+      "instruction" : "Stand up straight and raise your arms to shoulder height, lower. Repeat" ,
+      "route" : "BicepsBeginner"
+    },
+    {
+      "id" : 3,
+      "name" : "Reverse chair push-ups",
+      "count" : 10,
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "triceps",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/8/83/Triceps_brachii.png",
+      "instruction" : "In the position, turning your back towards the chair, hold on to the front of the chair, stretching your legs forward. Keeping your back straight and close, fold your arms 90 degrees and then lift yourself up",
+      "route" : "BicepsBeginner"
+      
+    },
+    {
+      "id" : 4,
+      "name" : "Push up",
+      "count" : 12,
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "chest",
+      "image": "https://www.mz-store.com/blog/wp-content/uploads_en/2018/10/chest.jpg",
+      "instruction" : "Do avarage push ups",
+      "route" : "BicepsBeginner"
+
+    },
+    {
+      "id" : 5,
+      "name" : "Crystal push ups",
+      "count" : 6,
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "chest , triceps",
+      "image" : "https://fitliferegime-1eaed.kxcdn.com/wp-content/uploads/2021/08/Know-More-About-Chest-And-Triceps-Muscles.webp",
+      "instruction" : "Take the usual push-up position, connect the index and thumbs. Do push-ups",
+      "route" : "BicepsBeginner"
+    },
+    {
+      "id" : 6,
+      "name" : "Push up",
+      "count" : 10,
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "route" : "BicepsBeginner"
+    },  
+    { 
+      "id" : 7,
+      "name" : "Biceps leg raise",
+      "count" : 8,
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "route" : "BicepsBeginner"
+    },
+    {
+      "id" : 8,
+      "name" : "Push up pose",
+      "count" : 10,
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "route" : "BicepsBeginner"
+    },
+    {
+      "id" : 9,
+      "name" : "Box",
+      "time" : "30s",
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "route" : "BicepsBeginner"
+    },
+
+
+    {
+      "id" : 10,
+      "name" : "Push ups sitting on the floor",
+      "count" : 14,
+      "difficulty": "intermediate",
+      "musclePart" : "Biceps",
+      "route":"BicepsIntermediate"
+    },
+    {
+      "id" : 11,
+      "name" : "Army push ups",
+      "count" : 12,
+      "difficulty": "intermediate",
+      "musclePart" : "Biceps",
+      "route":"BicepsIntermediate"
+    },
+    {
+      "id" : 12,
+      "name" : "Box",
+      "time" : "30s",
+      "difficulty": "intermediate",
+      "musclePart" : "Biceps",
+      "route":"BicepsIntermediate"
+    },
+    {
+      "id" : 13,
+      "name" : "Push ups with rotation",
+      "count" : 12,
+      "difficulty": "intermediate",
+      "musclePart" : "Biceps",
+      "route":"BicepsIntermediate"
+    },
+    {
+      "id" : 14,
+      "name" : "Push ups",
+      "count" : 10,
+      "difficulty": "intermediate",
+      "musclePart" : "Biceps",
+      "route":"BicepsIntermediate"
+    },
+    {
+      "id" : 15,
+      "name" : "Berbi",
+      "count" : 10,
+      "difficulty": "intermediate",
+      "musclePart" : "Biceps",
+      "route":"BicepsIntermediate"
+    },
+    {
+      "id" : 16,
+      "name" : "Jumping without rope",
+      "time" : "30s",
+      "difficulty" : "intermediate",
+      "musclePart" : "Biceps",
+      "route":"BicepsIntermediate"
+    },
+    {
+      "id" : 17,
+      "name" : "Biceps leg raise",
+      "count" : 12,
+      "difficulty" : "intermediate",
+      "musclePart" : "Biceps",
+      "route":"BicepsIntermediate"
+    },
+
+
+    {
+      "id": 18,
+      "name" : "Push ups by rotating",
+      "count" :  12,
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "route" : "BicepsAdvanced"
+    },
+    {
+      "id" : 19,
+      "name" : "Push ups with pause",
+      "time" : "30s" ,
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "route" : "BicepsAdvanced"
+    },
+    {
+      "id" : 20,
+      "name" : "Army push ups",
+      "count" :  12,
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "route" : "BicepsAdvanced"
+    },
+    {
+      "id" : 21,
+      "name" : "Berpi",
+      "count" : 16 , 
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "route" : "BicepsAdvanced"
+    },
+    {
+      "id" : 22,
+      "name" : "Push ups on the floor",
+      "count" : 18,
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "route" : "BicepsAdvanced"
+    },
+    {
+      "id" : 23,
+      "name" : "Box ",
+      "time" : "30s",
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "route" : "BicepsAdvanced"
+    },
+    {
+      "id" : 24,
+      "name" : "Fliping using left hand",
+      "count" : 12,
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "route" : "BicepsAdvanced"
+    },
+    {
+      "id" : 25,
+      "name" : "Fliping using right hand",
+      "count" : 12,
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "route" : "BicepsAdvanced"
+    }
+  ]
+
+}
