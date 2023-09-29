@@ -1,0 +1,886 @@
+{
+  "Chest" : [
+    {
+      "id": 1,
+      "name" : "Push-up with support in front",
+      "count" : 10 ,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "instruction" : "The starting position is the usual push-up position, but with your hands on a chair or bench. Perform push-ups with the strength of your hands. Don 't forget to keep the body straight .",
+      "image" : "/images/front-help-pushup.png",
+      "route" : "ChestBeginner"
+    },
+    {
+      "id": 2,
+      "name" : "Push up",
+      "count" : 8,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest",
+      "exactMuscle" :"Chest / Triceps / Shoulders",
+      "instruction" : "Raising and lowering the body with the help of hands. Keep your body straight. This exercise works out the muscles of the chest , shoulders , triceps , back and legs",
+      "image" : "/images/front-help-pushup.png",
+      "route" : "ChestBeginner"
+    },
+    {
+      "id": 3,
+      "name" : "Push-up with a wide focus",
+      "count" : 8,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "The starting position is the usual push-up position, but the emphasis is wider than the shoulders. Do push-ups. Don't forget to keep the body straight",
+      "route" : "ChestBeginner"
+    },
+    {
+      "id": 4,
+      "name" : "Reverse push-ups from a chair",
+      "count" : 10,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Back / Triceps / Shoulders",
+      "image" : "/images/Reverse-pushup.png",
+      "instruction" : "In the position, turning your back towards the chair, hold on to the front of the chair, stretching your legs forward. Keeping your back straight and close, fold your arms 90 degrees and then lift yourself up",
+      "route" : "ChestBeginner"
+    },
+    {
+      "id": 5,
+      "name": "Push-up with a wide focus",
+      "count" : 6,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "The starting position is the usual push-up position, but the emphasis is wider than the shoulders. Do push-ups. Don't forget to keep the body straight",
+      "route" : "ChestBeginner"
+    },
+    {
+      "id": 6,
+      "name" : "Push-up with support in front",
+      "count" : 8 ,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "The starting position is the usual push-up position, but with your hands on a chair or bench. Perform push-ups with the strength of your hands. Don 't forget to keep the body straight .",
+      "route" : "ChestBeginner"
+    },
+    {
+      "id": 7,
+      "name" : "Push-ups with emphasis on the knees",
+      "count" : 8 ,
+      "difficulty" : "beginner",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "The starting position is the usual push-up position, but with an emphasis on the knees and raised feet. Do push-ups.",
+      "route" : "ChestBeginner"
+    },
+    {
+      "id": 8,
+      "name" : "Cobra",
+      "time" : "30s",
+      "difficulty" : "beginner",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Press / Buts / Backpart of legs",
+      "image" : "/images/Cobra.jpg",
+      "instruction" : "Lie down on your stomach . Arms bent at the elbows, palms on the floor under the shoulders. Lift your chest as high as possible above the floor. Stay in this position for a few seconds",
+      "route" : "ChestBeginner"
+    },
+
+
+    {
+      "id" : 9,
+      "name" : "Push-ups with emphasis on the knees",
+      "count" : 12 ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "The starting position is the usual push-up position, but with an emphasis on the knees and raised feet. Do push-ups.",
+      "route": "ChestIntermediate"
+    },
+    {
+      "id" : 10,
+      "name" : "Push-ups",
+      "count" : 12,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest",
+      "instruction" : "Do avarage push ups",
+      "exactMuscle" :"Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "route": "ChestIntermediate"
+    },
+    {
+      "id" : 11,
+      "name" : "Push-up with a wide focus",
+      "count" : 8,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "The starting position is the usual push-up position, but the emphasis is wider than the shoulders. Do push-ups. Don't forget to keep the body straight",
+      "route": "ChestIntermediate"
+    },
+    {
+      "id" : 12,
+      "name" : "Indian push-ups",
+      "count" : 10,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Waist / Chest / Triceps / Buts ",
+      "image" : "/images/Indian-pushup.jpg",
+      "instruction" : "Starting position - hands and feet touch the floor, hips raised up. The position resembles an inverted letter V. Bend your arms at the elbows, lowering your body to the floor. When the body is close to the floor, lift the body as high as possible. Then return to the starting position.",
+      "route": "ChestIntermediate"
+    },
+    {
+      "id" : 13,
+      "name" : "Push-ups in diagonal",
+      "count" : 12,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "The starting position is the usual push-up position, but one hand is in front of the other. Do a push-up and change hands. Don't forget to keep the body straight.",
+      "route": "ChestIntermediate"
+    },
+    {
+      "id" : 14,
+      "name" : "Push-ups with rotation",
+      "count" : 10,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Press / Chest / Triceps / Shoulders",
+      "image" : "/images/Rotation-pushup.jpg",
+      "instruction" : "Take the emphasis lying down . Perform a push-up. When lifting to the upper position, rotate the body and pull the right arm up. Repeat for the other hand. An excellent exercise for the chest muscles, shoulder girdle, arms and core muscles.",
+      "route": "ChestIntermediate"
+    },
+    {
+      "id" : 15,
+      "name" : "Push-ups with emphasis on the knees",
+      "count" : 10 ,
+      "difficulty" : "intermediate" ,
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "The starting position is the usual push-up position, but with an emphasis on the knees and raised feet. Do push-ups.",
+      "route": "ChestIntermediate"
+    },
+    {
+      "id" : 16,
+      "name" : "Indian push-ups",
+      "count" : 10,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Waist / Chest / Triceps / Buts ",
+      "image" : "/images/Indian-pushup.jpg",
+      "instruction" : "Starting position - hands and feet touch the floor, hips raised up. The position resembles an inverted letter V. Bend your arms at the elbows, lowering your body to the floor. When the body is close to the floor, lift the body as high as possible. Then return to the starting position.",
+       "route": "ChestIntermediate"
+    },
+    {
+      "id" : 17,
+      "name" : "Push-up with a back stop",
+      "count" : 12 ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "The starting position is on all fours, knees under the buttocks, hands under the shoulders. Lift your legs onto a chair or bench and perform push-ups mainly with the strength of your hands. Do not forget to keep the body straight",
+       "route": "ChestIntermediate"
+    },
+
+
+    {
+      "id" : 18,
+      "name" : "Berpi",
+      "count" : 10,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest",
+      "exactMuscle" : "All body muscles",
+      "image" : "/images/Allbody.jpg",
+      "instruction" : "From a standing position, squat down and rest your hands on the ground. At the same time straighten your arms and legs and immediately return to the squatting position. Then jump up . <<Low start>> is an aerobic strength exercise for the muscles of the whole body.",
+      "route": "ChestAdvanced"
+      
+    },
+    {
+      "id" : 19,
+      "name" : "Push-ups in diagonal",
+      "count" : 16,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "The starting position is the usual push-up position, but one hand is in front of the other. Do a push-up and change hands. Don't forget to keep the body straight.",
+      "route": "ChestAdvanced"
+    },
+    {
+      "id" : 20,
+      "name" : "Indian push-ups",
+      "count" : 16,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Waist / Chest / Triceps / Buts ",
+      "image" : "/images/Indian-pushup.jpg",
+      "instruction" : "Starting position - hands and feet touch the floor, hips raised up. The position resembles an inverted letter V. Bend your arms at the elbows, lowering your body to the floor. When the body is close to the floor, lift the body as high as possible. Then return to the starting position.",
+      "route": "ChestAdvanced"
+    },
+    {
+      "id" : 21,
+      "name" : "Push-ups with rotation",
+      "count" : 12,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Press / Chest / Triceps / Shoulders",
+      "image" : "/images/Rotation-pushup.jpg",
+      "instruction" : "Take the emphasis lying down . Perform a push-up. When lifting to the upper position, rotate the body and pull the right arm up. Repeat for the other hand. An excellent exercise for the chest muscles, shoulder girdle, arms and core muscles.",
+      "route": "ChestAdvanced"
+    },
+    {
+      "id" : 22,
+      "name" : "Diamond push-ups",
+      "count" : 16,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "Take the emphasis lying down, as in a push-up. Connect the thumbs and index fingers under the breast in the shape of a diamond and perform a push-up. Don't forget to keep the body straight",
+      "route": "ChestAdvanced"
+    },
+    {
+      "id" : 23,
+      "name" : "Indian push-ups",
+      "count" : 12,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Waist / Chest / Triceps / Buts ",
+      "image" : "/images/Indian-pushup.jpg",
+      "instruction" : "Starting position - hands and feet touch the floor, hips raised up. The position resembles an inverted letter V. Bend your arms at the elbows, lowering your body to the floor. When the body is close to the floor, lift the body as high as possible. Then return to the starting position.",
+      "route": "ChestAdvanced"
+    },
+    {
+      "id" : 24,
+      "name" : "Spider-man push-ups",
+      "count" : 20,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Buts / Press",
+      "image" : "/images/Spider-pushup.jpg",
+      "instruction" : "The starting position is the usual push-up position. Lowering the body, bend and lift one leg to the side. Return to the starting position and perform the exercise on the other side . Don't forget to keep the body straight.",
+      "route": "ChestAdvanced"
+    },
+    {
+      "id" : 25,
+      "name" : "Push-up with a back stop",
+      "count" : 12 ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "The starting position is on all fours, knees under the buttocks, hands under the shoulders. Lift your legs onto a chair or bench and perform push-ups mainly with the strength of your hands. Do not forget to keep the body straight",
+      "route": "ChestAdvanced"
+    },
+    {
+      "id" : 26,
+      "name" : "Berpi",
+      "count" : 10,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest",
+      "instruction" : "From a standing position, squat down and rest your hands on the ground. At the same time straighten your arms and legs and immediately return to the squatting position. Then jump up . <<Low start>> is an aerobic strength exercise for the muscles of the whole body.",
+      "exactMuscle" : "All body muscles",
+      "image" : "/images/Allbody.jpg",
+      "route": "ChestAdvanced"
+    },
+    {
+      "id" : 27,
+      "name" : "Diamond push-ups",
+      "count" : 16,
+      "difficulty" : "advanced",
+      "musclePart" : "Chest",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "Take the emphasis lying down, as in a push-up. Connect the thumbs and index fingers under the breast in the shape of a diamond and perform a push-up. Don't forget to keep the body straight",
+      "route": "ChestAdvanced"
+    }
+ ]
+  ,
+  "Press" : [
+    {
+      "id" : 28,
+      "name" : "Swing",
+      "count" : 20,
+      "difficulty" : "beginner",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press",
+      "instruction" : "Sit on the floor, bend your knees. Lift the legs slightly, bend the body back. Connect your arms in front of your chest and make body turns from side to side.",
+      "image" : "/images/Press.jpg",
+      "route" : "PressBeginner"
+
+    },
+    {
+      "id" : 29,
+      "name" : "ABC",
+      "count" : 16,
+      "difficulty" : "beginner",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press",
+      "instruction" : "Lie on your back , legs bent at the knees , arms extended forward . Lift the case. Hold in the upper position for a few seconds and slowly return to the starting position. The main load falls on the rectus and oblique abdominal muscles.",
+      "image" : "/images/Press.jpg",
+      "route" : "PressBeginner"
+    },
+    {
+      "id" : 30,
+      "name" : "Mountaineer",
+      "count" : 16,
+      "difficulty" : "beginner",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press / Buts / Four-headed muscle / Calf / Waist ",
+      "instruction" : "Take the emphasis lying down. Pull your right knee up to your chest, jump out and change your legs in the air - left forward, right back. Strengthens many muscle groups, it is useful for the cardiovascular system.",
+      "route" : "PressBeginner",
+      "image" : "/images/Alpinist.jpg"
+    },
+    {
+      "id" : 31,
+      "name" : "Lateral slopes to the feet",
+      "count" : 20,
+      "difficulty" : "beginner",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press",
+      "instruction" : "Lie on your back, bend your legs at the knees, your hands lie along the body. Lift the body off the floor and touch each heel again with the fingers of the same hand.",
+      "route" : "PressBeginner",
+      "image" : "/images/Press.jpg"
+    },
+    {
+      "id" : 32,
+      "name" : "Leg lifting",
+      "count" : 16,
+      "difficulty" : "beginner",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press / Buts / Four-headed muscle",
+      "instruction" : "Lie on your back and put your hands under your hips for support . Lift straight legs up to form a right angle with the floor. Slowly lower your legs down and repeat the exercise.",
+      "route" : "PressBeginner",
+      "image" : "/images/Leg-lifting.jpg"
+    },
+    {
+      "id": 33,
+      "name" : "The bar",
+      "time" : "30s",
+      "difficulty" : "beginner",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press / Soulders / Buts",
+      "instruction" : "Hold the position << lying down >> on your elbows and toes. Try to keep this position with your back straight. Exercise strengthens the abdominal, back and shoulder muscles.",
+      "route" : "PressBeginner",
+      "image" : "/images/Bar.jpg"
+    },
+    {
+      "id": 34,
+      "name" : "Swing",
+      "count" : 36,
+      "difficulty" : "beginner",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press",
+      "instruction" : "Sit on the floor, bend your knees. Lift the legs slightly, bend the body back. Connect your arms in front of your chest and make body turns from side to side.",
+      "route" : "PressBeginner",
+      "image" : "/images/Press.jpg"
+    },
+    {
+      "id" : 35,
+      "name" : "ABC",
+      "count" : 32,
+      "difficulty" : "beginner",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press",
+      "instruction" : "Lie on your back , legs bent at the knees , arms extended forward . Lift the case. Hold in the upper position for a few seconds and slowly return to the starting position. The main load falls on the rectus and oblique abdominal muscles.",
+      "route" : "PressBeginner",
+      "image" : "/images/Press.jpg"
+    },
+
+
+    {
+      "id" : 36,
+      "name" : "Lateral slopes to the feet",
+      "count" : 26,
+      "difficulty" : "intermediate",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press",
+      "instruction" : "Lie on your back, bend your legs at the knees, your hands lie along the body. Lift the body off the floor and touch each heel again with the fingers of the same hand.",
+      "route" : "PressIntermediate",
+      "image" : "/images/Press.jpg"
+    },
+    {
+      "id" : 37,
+      "name" : "Twisting with a rotation",
+      "count" : 20 ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press / Buts / Four-headed muscle",
+      "instruction" : "Lie on your back , knees bent, hands behind your head . Lift and twist the body so that the right elbow touches the left knee. Repeat in the other direction .",
+      "route" : "PressIntermediate",
+      "image" : "/images/Bicycle.jpg"
+    },
+    {
+      "id" : 38,
+      "name" : "Mountaineer",
+      "count" : 20 , 
+      "difficulty" : "intermediate",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press / Buts / Four-headed muscle / Calf / Waist ",
+      "instruction" : "Take the emphasis lying down. Pull your right knee up to your chest, jump out and change your legs in the air - left forward, right back. Strengthens many muscle groups, it is useful for the cardiovascular system.",
+      "route" : "PressIntermediate",
+      "image" : "/images/Alpinist.jpg"
+    },
+    {
+      "id" : 39 ,
+      "name" : "Side bridge" ,
+      "count" : 12 ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press / Buts / Adductors",
+      "instruction" : "Lie down on your right side. Put your right elbow directly under your shoulder, put your left hand on your waist. Put your left foot on your right. Lift your hips, stay in this position for 2-4 seconds, return to the starting position.",
+      "route" : "PressIntermediate",
+      "image" : "/images/Side-bridge.jpg"
+    },
+    {
+      "id" : 40,
+      "name" : "Buttock bridge",
+      "count" : 20 ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Press",
+      "exactMuscle" : "Buts / Backpart of legs",
+      "instruction" : "Starting position: lying on your back. Bend your knees, feet on the floor, hands palms down along the body. Raise the pelvis as high as possible by making a bridge.",
+      "route" : "PressIntermediate",
+      "image" : "/images/Buttok-bridge.jpg"
+    },
+    {
+      "id" : 41,
+      "name" : "Bicycle", 
+      "count" : 20 , 
+      "difficulty" : "intermediate",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press / Buts / Four-headed muscle",
+      "instruction" : "Lie on your back, put your hands under your head, raise your knees and turn the bicycle pedals. Then start bending forward, touching the elbows of the opposite knee.",
+      "route" : "PressIntermediate",
+      "image" : "/images/Bicycle.jpg"
+    },
+    {
+      "id" : 42 ,
+      "name" : "Angle",
+      "count" : 20,
+      "difficulty" : "intermediate",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press / Four-headed muscle",
+      "instruction" : "Lie on your back, arms and legs stretched out, legs together. Lift the body and legs, touch the socks with your hands. Return to the starting position and repeat the exercise.",
+      "route" : "PressIntermediate",
+      "image" : "/images/Angle.jpg"
+    },
+    {
+      "id" : 43,
+      "name" : "The bar",
+      "time" : "30s" ,
+      "difficulty" : "intermediate",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press / Soulders / Buts",
+      "instruction" : "Hold the position << lying down >> on your elbows and toes. Try to keep this position with your back straight. Exercise strengthens the abdominal, back and shoulder muscles.",
+      "route" : "PressIntermediate",
+      "image" : "/images/Bar.jpg"
+    },
+
+    
+    {
+      "id": 44,
+      "name" : "Lifting the body into the saddle",
+      "count" : 20 ,
+      "difficulty" : "advanced",
+      "musclePart" : "Press",
+      "exactMuscle"  : "Press / Four-headed muscle",
+      "instruction" : "Lie on your back , hands behind your head . Lift the body as high as possible from the floor. Slowly return to the prone position and repeat the exercise.",
+      "route" : "PressIntermediate",
+      "image" : "/images/LiftingBody.jpg"
+    },
+    {
+      "id": 45,
+      "name" : "Side bridge",
+      "count" : 20 , 
+      "difficulty" : "advanced",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press / Buts / Adductors",
+      "instruction" : "Lie down on your right side. Put your right elbow directly under your shoulder, put your left hand on your waist. Put your left foot on your right. Lift your hips, stay in this position for 2-4 seconds, return to the starting position.",
+      "route" : "PressIntermediate",
+      "image" : "/images/Side-bridge.jpg"
+    },
+    
+    {
+      "id" : 46,
+      "name" : "ABC",
+      "count" : 30,
+      "difficulty" : "advanced",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press",
+      "instruction" : "Lie on your back , legs bent at the knees , arms extended forward . Lift the case. Hold in the upper position for a few seconds and slowly return to the starting position. The main load falls on the rectus and oblique abdominal muscles.",
+      "route": "PressAdvanced",
+      "image" : "/images/Press.jpg"
+    },
+    {
+      "id" : 47,
+      "name" : "Bicycle",
+      "count" : 24 ,
+      "difficulty" : "advanced",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press / Buts / Four-headed muscle",
+      "instruction" : "Lie on your back, put your hands under your head, raise your knees and turn the bicycle pedals. Then start bending forward, touching the elbows of the opposite knee.",
+      "route": "PressAdvanced",
+      "image" : "/images/Bicycle.jpg"
+    },
+    {
+      "id" : 48,
+      "name" : "The bar on the side",
+      "time" : "20s",
+      "difficulty" : "advanced",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press",
+      "instruction" : "Lie on your side with an emphasis on your elbow, your hips are off the floor , hold your body straight from head to toe. This is an exercise for the abdominal muscles , primarily for the oblique",
+      "route": "PressAdvanced",
+      "image" : "/images/Press.jpg"
+    },
+    {
+      "id" : 49,
+      "name" :  "Angle" ,
+      "count" : 18 ,
+      "difficulty" : "advanced",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press / Four-headed muscle",
+      "instruction" : "Lie on your back, arms and legs stretched out, legs together. Lift the body and legs, touch the socks with your hands. Return to the starting position and repeat the exercise.",
+      "route": "PressAdvanced",
+      "image" : "/images/Angle.jpg"
+    },
+    {
+      "id": 50,
+      "name" : "Push up with rotation",
+      "count" : 24 ,
+      "difficulty" : "advanced" ,
+      "musclePart" : "Press",
+      "exactMuscle" : "Press / Chest / Triceps / Shoulders / Buts",
+      "instruction" : "Take the emphasis lying down . Perform a push-up. When lifting to the upper position, rotate the body and pull the right arm up. Repeat for the other hand. An excellent exercise for the chest muscles, shoulder girdle, arms and core muscles.",
+      "route": "PressAdvanced",
+      "image" : "/images/Rotation-pushup.jpg"
+    },
+    {
+      "id" : 51,
+      "name" : "Swing",
+      "count" : 48 ,
+      "difficulty" : "advanced",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press",
+      "instruction" : "Sit on the floor, bend your knees. Lift the legs slightly, bend the body back. Connect your arms in front of your chest and make body turns from side to side.",
+      "route": "PressAdvanced",
+      "image" : "/images/Press.jpg"
+    },
+    {
+      "id" : 52,
+      "name" : "Lateral slopes to the feet",
+      "count" : 34,
+      "difficulty" : "advanced",
+      "musclePart" : "Press",
+      "exactMuscle" : "Press",
+      "instruction" : "Lie on your back, bend your legs at the knees, your hands lie along the body. Lift the body off the floor and touch each heel again with the fingers of the same hand.",
+      "route": "PressAdvanced",
+      "image" : "/images/Press.jpg"
+    },
+    {
+      "id" : 53,
+      "name" : "Buttock bridge",
+      "count" : 30 ,
+      "difficulty" : "advanced",
+      "musclePart" : "Press",
+      "exactMuscle" : "Buts / Backpart of legs",
+      "instruction" : "Starting position: lying on your back. Bend your knees, feet on the floor, hands palms down along the body. Raise the pelvis as high as possible by making a bridge.",
+      "route": "PressAdvanced",
+      "image" : "/images/Buttok-bridge.jpg"
+    }
+    
+  ]
+  , 
+  "Biceps" : [
+    {
+      "id" : 54 ,
+      "name" : "Hand rotation",
+      "time" : "30s",
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Shoulders / Chest",
+      "instruction" : "Stand on the floor, stretch your arms at shoulder level, raise your arms above your head and return to the old position again",
+      "route" : "BicepsBeginner",
+      "image" : "/images/Hand-rotation.jpg"
+    },
+    {
+      "id" : 55,
+      "name" : "Raising arms to the side",
+      "time" : "30s",
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Shoulders",
+      "instruction" : "Stand up straight and raise your arms to shoulder height, lower. Repeat" ,
+      "route" : "BicepsBeginner",
+      "image" : "/images/Shoulders.jpg"
+    },
+    {
+      "id" : 56,
+      "name" : "Reverse chair push-ups",
+      "count" : 10,
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Triceps",
+      "image" : "/images/Reverse-pushup.png",
+      "instruction" : "In the position, turning your back towards the chair, hold on to the front of the chair, stretching your legs forward. Keeping your back straight and close, fold your arms 90 degrees and then lift yourself up",
+      "route" : "BicepsBeginner" 
+    },
+    {
+      "id" : 57,
+      "name" : "Push up",
+      "count" : 12,
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Chest",
+      "image": "/images/front-help-pushup.png",
+      "instruction" : "Do avarage push ups",
+      "route" : "BicepsBeginner"
+    },
+    {
+      "id" : 58,
+      "name" : "Crystal push ups",
+      "count" : 6,
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Chest / Triceps",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "Take the usual push-up position, connect the index and thumbs. Do push-ups",
+      "route" : "BicepsBeginner"
+    },
+    {
+      "id" : 59,
+      "name" : "Push up",
+      "count" : 10,
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Chest",
+      "instruction" : "Do avarage push ups",
+      "route" : "BicepsBeginner",
+      "image": "/images/front-help-pushup.png"
+    },  
+    { 
+      "id" : 60,
+      "name" : "Biceps leg raise",
+      "count" : 8,
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "route" : "BicepsBeginner",      
+      "exactMuscle" : "Biceps / Forearms",
+      "image" : "/images/Leg-raising.jpg",
+      "instruction" : "Stand against the wall . Raise your right leg, bend over. go ahead and grab your right ankle from below with your left hand. Lift the ankle as high as possible to the shoulder, and then lower it. Repeat the exercise."
+    },
+    {
+      "id" : 61,
+      "name" : "Push up",
+      "count" : 10,
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "route" : "BicepsBeginner",
+      "exactMuscle" : "Chest",
+      "instruction" : "Do avarage push ups",
+      "image" : "/images/front-help-pushup.png"
+    },
+    {
+      "id" : 62,
+      "name" : "Box",
+      "time" : "30s",
+      "difficulty": "beginner",
+      "musclePart" : "Biceps",
+      "route" : "BicepsBeginner",
+      "exactMuscle" : "Triceps / Chest / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "Stand with one leg outstretched, knees slightly bent. Bend your arms at the elbows and clench your fists at face level. Straighten one arm forward , palm down . Return the arm to the starting position and repeat with the other hand."
+    },
+
+
+    {
+      "id" : 63,
+      "name" : "Push ups sitting on the floor",
+      "count" : 14,
+      "difficulty": "intermediate",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Triceps / Chest / Shoulders / Back",
+      "instruction" : "Sit on the floor with your knees bent and your feet flat on the floor. Place your hands on the floor under your shoulders, with your fingers towards your hips. Lift your hips off the floor. Then bend and unbend your arms at the elbows to lower and raise your hips.",
+      "image" : "/images/Floor-pushup.jpg",
+      "route":"BicepsIntermediate"
+    },
+    {
+      "id" : 64,
+      "name" : "Army push ups",
+      "count" : 12,
+      "difficulty": "intermediate",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "Take the emphasis lying down , hands exactly under the shoulders, elbows close to the body , the distance between the feet is no more than 30 centimeters . Bend your arms at the elbows and lower your body until the shoulder parts of the arms are parallel to the floor. Stay in this position for one second, then return to the starting position, pushing off the floor, and repeat the exercise.",
+      "route":"BicepsIntermediate"
+    },
+    {
+      "id" : 65,
+      "name" : "Box",
+      "time" : "30s",
+      "difficulty": "intermediate",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Triceps / Chest / Shoulders",
+      "route":"BicepsIntermediate",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "Stand with one leg outstretched, knees slightly bent. Bend your arms at the elbows and clench your fists at face level. Straighten one arm forward , palm down . Return the arm to the starting position and repeat with the other hand."
+    },
+    {
+      "id" : 66,
+      "name" : "Push ups with rotation",
+      "count" : 12,
+      "difficulty": "intermediate",
+      "musclePart" : "Biceps",
+      "route":"BicepsIntermediate",
+      "exactMuscle" : "Press / Chest / Triceps / Shoulders",
+      "image" : "/images/Rotation-pushup.jpg",
+      "instruction" : "Take the emphasis lying down . Perform a push-up. When lifting to the upper position, rotate the body and pull the right arm up. Repeat for the other hand. An excellent exercise for the chest muscles, shoulder girdle, arms and core muscles."
+    },
+    {
+      "id" : 67,
+      "name" : "Push ups",
+      "count" : 10,
+      "difficulty": "intermediate",
+      "musclePart" : "Biceps",
+      "route":"BicepsIntermediate",
+      "exactMuscle" : "Chest",
+      "instruction" : "Do avarage push ups",
+      "image" : "/images/front-help-pushup.png"
+    },
+    {
+      "id" : 68,
+      "name" : "Berbi",
+      "count" : 10,
+      "difficulty": "intermediate",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "All body muscles",
+      "image" : "/images/Allbody.jpg",
+      "instruction" : "From a standing position, squat down and rest your hands on the ground. At the same time straighten your arms and legs and immediately return to the squatting position. Then jump up . <<Low start>> is an aerobic strength exercise for the muscles of the whole body.",
+      "route":"BicepsIntermediate"
+    },
+    {
+      "id" : 69,
+      "name" : "Jumping without rope",
+      "time" : "30s",
+      "difficulty" : "intermediate",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Buts / Four-headed muscle / Backpart of legs / Calf",
+      "image" : "/images/Without-rope.jpg",
+      "instruction" : "Stretch your arms out to the sides, as if you are holding the handles of a rope in them. You jump up and land alternately on the pad of your left and right feet , rotating your hands at the same time , as if twisting a rope",
+      "route":"BicepsIntermediate"
+    },
+    {
+      "id" : 70,
+      "name" : "Biceps leg raise",
+      "count" : 12,
+      "difficulty" : "intermediate",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Biceps / Forearms",
+      "image" : "/images/Leg-raising.jpg",
+      "instruction" : "Stand against the wall . Raise your right leg, bend over. go ahead and grab your right ankle from below with your left hand. Lift the ankle as high as possible to the shoulder, and then lower it. Repeat the exercise.",
+      "route":"BicepsIntermediate"
+    },
+
+
+    {
+      "id": 71,
+      "name" : "Push ups by rotating",
+      "count" :  12,
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Press / Chest / Triceps / Shoulders",
+      "image" : "/images/Rotation-pushup.jpg",
+      "instruction" : "Take the emphasis lying down . Perform a push-up. When lifting to the upper position, rotate the body and pull the right arm up. Repeat for the other hand. An excellent exercise for the chest muscles, shoulder girdle, arms and core muscles.",
+      "route" : "BicepsAdvanced"
+    },
+    {
+      "id" : 72,
+      "name" : "Push ups with pause",
+      "time" : "30s" ,
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "Start lying flat, feet shoulder-width apart, on your knees on the floor. Lower the body until the elbows are at an angle of 90 degrees.Stay in this position.",
+      "route" : "BicepsAdvanced"
+    },
+    {
+      "id" : 73,
+      "name" : "Army push ups",
+      "count" :  12,
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "Take the emphasis lying down , hands exactly under the shoulders, elbows close to the body , the distance between the feet is no more than 30 centimeters . Bend your arms at the elbows and lower your body until the shoulder parts of the arms are parallel to the floor. Stay in this position for one second, then return to the starting position, pushing off the floor, and repeat the exercise.",
+      "route" : "BicepsAdvanced"
+
+    },
+    {
+      "id" : 74,
+      "name" : "Berpi",
+      "count" : 16 , 
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "exactMuscle" :"All body muscles",
+      "image" : "/images/Allbody.jpg",
+      "instruction" : "From a standing position, squat down and rest your hands on the ground. At the same time straighten your arms and legs and immediately return to the squatting position. Then jump up . <<Low start>> is an aerobic strength exercise for the muscles of the whole body.",
+      "route" : "BicepsAdvanced"
+    },
+    {
+      "id" : 75,
+      "name" : "Push ups on the floor",
+      "count" : 18,
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Triceps / Chest / Shoulders / Back",
+      "instruction" : "Sit on the floor with your knees bent and your feet flat on the floor. Place your hands on the floor under your shoulders, with your fingers towards your hips. Lift your hips off the floor. Then bend and unbend your arms at the elbows to lower and raise your hips.",
+      "image" : "/images/Floor-pushup.jpg",
+      "route" : "BicepsAdvanced"
+    },
+    {
+      "id" : 76,
+      "name" : "Box ",
+      "time" : "30s",
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Chest / Triceps / Shoulders",
+      "route" : "BicepsAdvanced",
+      "image" : "/images/front-help-pushup.png",
+      "instruction" : "Stand with one leg outstretched, knees slightly bent. Bend your arms at the elbows and clench your fists at face level. Straighten one arm forward , palm down . Return the arm to the starting position and repeat with the other hand."    
+    },
+    {
+      "id" : 77,
+      "name" : "Fliping using left hand",
+      "count" : 12,
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Chest / Forearms / Press",
+      "image" : "/images/Flipping-using-hands",
+      "instruction" : "Lie on your left side, knees bent and raised. Wrap your left hip with your left hand and put your right hand behind your head . Lift the upper part of the body by pulling on the left thigh . Repeat the exercise.",
+      "route" : "BicepsAdvanced"
+    },
+    {
+      "id" : 78,
+      "name" : "Fliping using right hand",
+      "count" : 12,
+      "difficulty" : "advanced",
+      "musclePart" : "Biceps",
+      "exactMuscle" : "Chest / Forearms / Press",
+      "image" : "/images/Flipping-using-hands",
+      "instruction" : "Lie on your right side, knees bent and raised. Wrap your right hip with your right hand and put your left hand behind your head . Lift the upper part of the body by pulling on the right thigh . Repeat the exercise.",
+      "route" : "BicepsAdvanced"
+    }
+  ]
+
+}
