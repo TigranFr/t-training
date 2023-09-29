@@ -10,7 +10,7 @@ export const api = createApi({
   }),
   endpoints: (builder) => ({
     getExercises: builder.query({
-      query: () => '/exercises',
+      query: () => '/Exercises',
       providesTags: () => [
         {
           type: 'Exercise',

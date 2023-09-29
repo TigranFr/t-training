@@ -1,28 +1,37 @@
 import React from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { Link} from 'react-router-dom'
-import { getExerciseById} from '../REDUX/ApiFetching/ExerciseActions'
+import { getExerciseById } from '../REDUX/ApiFetching/ExerciseActions';
+import {toggleFavorites} from '../REDUX/ApiFetching/FavoritesSlice';
 import styles from './ExerciseItem.module.scss'
 
 const ExerciseItem = ({object}) => {
 
   const dispatch = useDispatch();
+  const favoriteExercises = useSelector(state => state.favoriteExercises);
+  const isExist = favoriteExercises && favoriteExercises?.some(exercise => exercise.id === object.id);
+  
 
   return (
     <div className={styles.exerciseBlock}>
-     <div style={{display:'flex' , justifyItems:"center" , alignItems:"center"}}>
-            <Link to={'ExerciseItem'} class='bx bx-menu' style={{marginRight:"10px" ,textDecoration: "none" , height: '40px' , width: '40px' , fontSize: "40px" ,color: 'black'}} onClick={()=>{
-              dispatch(getExerciseById({ musclePart: object.musclePart, id: object.id }));
-              }}>
-            </Link>
-            <i class='bx bx-heart' style={{ fontSize: "30px"}}></i>
-     </div>
+        <div className={styles.instructionBlock}>
+                <Link to={`ExerciseDetailed`} className={`${styles.bx_menu} bx bx-menu`} onClick={()=>{
+                  dispatch(getExerciseById({ musclePart: object.musclePart, id: object.id }));
+                  }}>
+                </Link>
+                {isExist ? <i className={`${styles.bxs_heart} bx bxs-heart`} onClick={()=>{
+                  dispatch(toggleFavorites(object))
+                }}></i> : 
+                <i className={`${styles.bxs_heart} bx bx-heart`} onClick={()=>{
+                  dispatch(toggleFavorites(object))
+                }}></i>  }
+        </div>
            
-      {/*  <Link className='btn' to={`/car/${car.id}`}> */}
-          <div className={styles.infoBlock}>
-            <p style={{fontWeight: 'bold' , fontSize : '20px'}} >{object.name}</p>
+        <div className={styles.infoBlock}>
+            <p className={styles.name}>{object.name}</p>
             <p>{object.count ? "x"+ object.count : object.time ? object.time : object.difficulty}</p>
         </div>
+
     </div>
   )
   

@@ -1,43 +1,5 @@
-form{
+.main{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: auto;
-    padding: 10px;
-    margin-top: 25px;
-    margin-left: 20px;
-    border: 2px solid black;
-    border-radius: 10px;
-
+    justify-content: space-around; 
 }
-
-input{
-    outline: none;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 7px;
-    margin: 7px;
-    width: 290px;
-    height: 30px;
-}
-
-button{
-    outline: none;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 7px;
-    margin: 10px 0;
-    width: 305px;
-}
-
-textarea{
-    width: 300px;
-    height: 200px;
-}
-
-.select{
-    width: 305px !important;
-    margin: 5px 0 !important;
-  }

@@ -20,7 +20,6 @@ const Navbar = () => {
                 <i class='bx bx-search' className={styles.icon}></i>
                 <Link to='/search' className={styles.link}>Search</Link>
             </li>
-            
     </ul>
 </nav>   
   )

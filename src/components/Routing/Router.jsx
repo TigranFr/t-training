@@ -1,18 +1,16 @@
- import { BrowserRouter , Routes , Route } from "react-router-dom";
- import App from '../../App'
- import MainTraining from "../Pages/MainTrainings/MainTraining";
- import SearchPage from "../Pages/SearchPage/SearchPage";
- import ProfilePage from "../Pages/ProfilePage/ProfilePage";
-
+import { BrowserRouter , Routes , Route } from "react-router-dom";
 import {useSelector} from 'react-redux'
-import TrainBlockPage from "../TrainBlockPage/TrainBlockPage";
-import ExerciseDetailed from "../ExerciseDetailed/ExerciseDetailed";
+import {App  ,MainTraining, SearchPage , 
+        ProfilePage, TrainBlockPage , 
+        ExerciseDetailed , Favorites} from '../index'
 
 
 
  const Router =  () => {
     const {exercises} = useSelector(state => state.exercises);
     const {exercise} = useSelector(state => state.exercise);
+    const {ownexercise} = useSelector(state => state.ownexercise);
+    const favoriteExercises = useSelector(state => state.favoriteExercises)
 
     const getBiceps = (level) => {
         return exercises.filter(exercise => {
@@ -105,12 +103,30 @@ import ExerciseDetailed from "../ExerciseDetailed/ExerciseDetailed";
                     />
                 }
                 />
+                {exercise && 
                 <Route path="/:musclePart/:id" element={
                     <ExerciseDetailed 
                         data={exercise}
                     />
-                }/>
+                }/> }
+                
+
+                <Route path="/ExerciseDetailed/:id" element={
+                    <ExerciseDetailed
+                        data={ownexercise}
+                        />
+                }/> 
+            
+               <Route path="/Favorites"
+                    element={
+                    <Favorites
+                        favorites={favoriteExercises}
+                    />}
+                />
+
             </Routes>   
+
+            
         </BrowserRouter>
    )
  }

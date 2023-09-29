@@ -1,7 +1,7 @@
 %trainbox{
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position:center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position:center;
         width: 500px;
         height: 170px;
         border-radius: 10px;
@@ -41,7 +41,7 @@
         margin-top: 50px;
     }
     .allBodyBlock{
-        background-image: url('https://staticg.sportskeeda.com/editor/2022/11/777e9-16684235607233-1920.jpg');
+         background-image: url('https://staticg.sportskeeda.com/editor/2022/11/777e9-16684235607233-1920.jpg');
         @extend %trainbox
     }
     .lowerBodyBlock{

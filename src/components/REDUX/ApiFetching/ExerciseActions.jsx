@@ -1,8 +1,11 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
+const ExercisesUrl = "http://localhost:4000/";
+const OwnExercisesUrl = "http://localhost:4100/Exercises/";
+
 const fetchExercises = async (keyWord) => {
   try {
-    const response = await fetch(`http://localhost:4000/${keyWord}`);
+    const response = await fetch(`${ExercisesUrl}${keyWord}`);
     return response.json(); 
   } catch (error) {
     throw error; 
@@ -11,12 +14,34 @@ const fetchExercises = async (keyWord) => {
 
 const fetchExerciseById = async(musclePart , id)=>{
   try{
-    const response = await fetch(`http://localhost:4000/${musclePart}/${id}`);
+      const response = await fetch(`${ExercisesUrl}${musclePart}/${id}`);
+      return response.json();
+    }catch(error){
+      throw error;
+    }
+
+}
+
+const  fetchOwnExerciseById = async (id) => {
+  try{
+    const response = await fetch(`${OwnExercisesUrl}${id}`);;
     return response.json();
   }catch(error){
-    throw error;
+    throw error
   }
 }
+
+export const getOwnExerciseById = createAsyncThunk(
+  'ownexercise/byId',
+  async(id , thunkAPI) => {
+    try{
+      const response = await fetchOwnExerciseById(id);
+      return response;
+    }catch(error){
+      throw thunkAPI.rejectWithValue(error)
+    }
+  }
+)
 
 export const getExerciseByName = createAsyncThunk(
   'exercise/byName',

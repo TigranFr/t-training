@@ -5,12 +5,20 @@ export const exerciseApi = api.injectEndpoints({
     createExercise: builder.mutation({
       query: (exercise) => ({
         method: 'POST',
-        url: '/exercises',
+        url: '/Exercises',
         body: exercise,
       }),
-      invalidatesTags: ['Exercise'],
+    invalidatesTags: ['Exercise'],
+    }),
+
+    deleteExercise: builder.mutation({
+      query: (exerciseID) => ({
+        method: "DELETE",
+        url:`/Exercises/${exerciseID}`
+      }),
+      invalidatesTags : ['Exercise']
     }),
   }),
 });
 
-export const { useCreateExerciseMutation } = exerciseApi;
+export const { useCreateExerciseMutation, useDeleteExerciseMutation } = exerciseApi;
