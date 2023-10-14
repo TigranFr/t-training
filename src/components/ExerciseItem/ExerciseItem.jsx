@@ -1,35 +1,48 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useCallback } from 'react';
+import { useDispatch } from 'react-redux'
 import { Link} from 'react-router-dom'
-import { getExerciseById } from '../REDUX/ApiFetching/ExerciseActions';
-import {toggleFavorites} from '../REDUX/ApiFetching/FavoritesSlice';
+import { useGetFavoritesQuery } from '../REDUX/Api/apiFavorites';
+
+import { useAddFavoritesMutation, useDeleteFavoritesMutation } from '../REDUX/Api/favoritesApi';
+import { clearExerciseItem } from '../REDUX/ApiFetching/ExerciseByIdSlice';
+
 import styles from './ExerciseItem.module.scss'
 
-const ExerciseItem = ({object}) => {
+const ExerciseItem = ({item}) => {
+
 
   const dispatch = useDispatch();
-  const favoriteExercises = useSelector(state => state.favoriteExercises);
-  const isExist = favoriteExercises && favoriteExercises?.some(exercise => exercise.id === object.id);
-  
+
+  const cleaItem = useCallback(()=>{
+    dispatch(clearExerciseItem())
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[clearExerciseItem])
+
+  const {data, refetch} = useGetFavoritesQuery()
+
+  const isExist = data?.some(favExercise => favExercise.id === item.id);
+  const [addFavorites] = useAddFavoritesMutation();
+  const [deleteFavorites] = useDeleteFavoritesMutation();
 
   return (
     <div className={styles.exerciseBlock}>
         <div className={styles.instructionBlock}>
-                <Link to={`ExerciseDetailed`} className={`${styles.bx_menu} bx bx-menu`} onClick={()=>{
-                  dispatch(getExerciseById({ musclePart: object.musclePart, id: object.id }));
-                  }}>
+                <Link  to={`/musclePart/${item.route}/${item.id}`} className={`${styles.bx_menu} bx bx-menu`} onClick={cleaItem}>
                 </Link>
                 {isExist ? <i className={`${styles.bxs_heart} bx bxs-heart`} onClick={()=>{
-                  dispatch(toggleFavorites(object))
+                  deleteFavorites(item.id);
+                  refetch()
                 }}></i> : 
                 <i className={`${styles.bxs_heart} bx bx-heart`} onClick={()=>{
-                  dispatch(toggleFavorites(object))
+                  addFavorites(item)
+                  refetch()
                 }}></i>  }
         </div>
            
         <div className={styles.infoBlock}>
-            <p className={styles.name}>{object.name}</p>
-            <p>{object.count ? "x"+ object.count : object.time ? object.time : object.difficulty}</p>
+            <p className={styles.name}>{item.name}</p>
+            <p>{item.count ? "x"+ item.count : item.time ? item.time : item.difficulty}</p>
         </div>
 
     </div>

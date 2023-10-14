@@ -1,3 +1,37 @@
+.ownexercises{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .header{
     text-align: center;
+}
+
+.paginationBttns{
+    display: flex;
+    justify-content: center;
+    margin-right: 35px;
+    width: 80%;
+    height: 40px;
+    list-style: none;
+}
+
+.paginationBttns a {
+    border: 1px solid blue;
+    border-radius: 4px;
+    margin: 6px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.paginationBttns a:hover{
+    background-color: blue;
+    color: white;
+}
+
+.paginationActive a{
+    background-color: blue;
+    color: white;
 }

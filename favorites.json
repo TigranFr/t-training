@@ -1,0 +1,15 @@
+{
+  "Favorites": [
+    {
+      "id": 54,
+      "name": "Hand rotation",
+      "time": "30s",
+      "difficulty": "beginner",
+      "musclePart": "Biceps",
+      "exactMuscle": "Shoulders / Chest",
+      "instruction": "Stand on the floor, stretch your arms at shoulder level, raise your arms above your head and return to the old position again",
+      "route": "BicepsBeginner",
+      "image": "/images/Hand-rotation.jpg"
+    }
+  ]
+}

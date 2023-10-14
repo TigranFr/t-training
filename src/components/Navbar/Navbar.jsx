@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav>
          
         <ul className={styles.navbar}>
-        <h1 className={styles.logo}>Ttraining</h1>
+        <Link to ='/' className={styles.homepage}><h1 className={styles.logo}>Ttraining</h1></Link>
             <li className={styles.navbar_item}>
                 <i class='bx bx-dumbbell' className={styles.icon}></i>
                 <Link to='/training' className={styles.link}>Training</Link>

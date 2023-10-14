@@ -1,10 +1,11 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch} from 'react-redux'
 import { Link} from 'react-router-dom'
 import { getOwnExerciseById } from '../REDUX/ApiFetching/ExerciseActions';
-import { toggleFavorites } from '../REDUX/ApiFetching/FavoritesSlice';
 import { useDeleteExerciseMutation } from '../REDUX/Api/exerciseApi';
 import styles from './ExerciseOwnItem.module.scss'
+import { useGetFavoritesQuery } from '../REDUX/Api/apiFavorites';
+import { useAddFavoritesMutation, useDeleteFavoritesMutation } from '../REDUX/Api/favoritesApi';
 
 
 const ExerciseOwnItem = ({item}) => {
@@ -12,8 +13,11 @@ const ExerciseOwnItem = ({item}) => {
   console.log(item,);
 
   const dispatch = useDispatch();
-  const favoriteExercises = useSelector(state => state.favoriteExercises);
-  const isExist = favoriteExercises && favoriteExercises?.some(exercise => exercise.id === item.id);
+  const {data} = useGetFavoritesQuery()
+  const isExist = data?.some(favExercise => favExercise.id === item.id);
+  const [addFavorites] = useAddFavoritesMutation();
+  const [deleteFavorites] = useDeleteFavoritesMutation();
+
   const [deleteExercise] = useDeleteExerciseMutation();   
 
   return (
@@ -26,12 +30,14 @@ const ExerciseOwnItem = ({item}) => {
                   }}>
                 </Link>
                 {isExist ? <i className={`${styles.bxs_heart} bx bxs-heart`}   onClick={()=>{
-                  dispatch(toggleFavorites(item))
+                  deleteFavorites(item.id)
                 }}></i> : 
                 <i className={`${styles.bxs_heart} bx bx-heart`} onClick={()=>{
-                  dispatch(toggleFavorites(item))
-                }}></i>  }
+                  addFavorites(item)
+                }}></i> }
+
                 <i className={`${styles.bxs_trash} bx bxs-trash`}  onClick={()=>{
+                  deleteFavorites(item.id)
                   deleteExercise(item.id);
                 }}></i>
           </div>

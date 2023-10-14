@@ -31,6 +31,18 @@ const  fetchOwnExerciseById = async (id) => {
   }
 }
 
+export const getExerciseById = createAsyncThunk(
+  'exercise/byId',
+  async ({ musclePart, id }, thunkAPI) => {
+    try {
+      const response = await fetchExerciseById(musclePart, id);
+      return response;
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error);
+    }
+  }
+);
+
 export const getOwnExerciseById = createAsyncThunk(
   'ownexercise/byId',
   async(id , thunkAPI) => {
@@ -55,14 +67,3 @@ export const getExerciseByName = createAsyncThunk(
   }
 );
 
-export const getExerciseById = createAsyncThunk(
-  'exercise/byId',
-  async ({ musclePart, id }, thunkAPI) => {
-    try {
-      const response = await fetchExerciseById(musclePart, id);
-      return response;
-    } catch (error) {
-      return thunkAPI.rejectWithValue(error);
-    }
-  }
-);
