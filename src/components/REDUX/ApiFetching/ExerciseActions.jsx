@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
 const ExercisesUrl = "http://localhost:4000/";
-const OwnExercisesUrl = "http://localhost:4100/Exercises/";
+const OwnExercisesUrl = "http://localhost:4100/Exercises";
 
 const fetchExercises = async (keyWord) => {
   try {
@@ -24,7 +24,7 @@ const fetchExerciseById = async(musclePart , id)=>{
 
 const  fetchOwnExerciseById = async (id) => {
   try{
-    const response = await fetch(`${OwnExercisesUrl}${id}`);;
+    const response = await fetch(`${OwnExercisesUrl}/${id}`);;
     return response.json();
   }catch(error){
     throw error

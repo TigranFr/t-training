@@ -16,8 +16,11 @@ nav {
         .homepage{
             text-decoration: none;
             color: #000;
+            transition: color 0.2s;
         }
-      
+        .homepage:hover{
+            color: #007bff;
+        }
         .logo{
             font-weight: 800;
             font-family: Space Grotesk;

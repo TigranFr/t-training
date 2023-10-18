@@ -1,0 +1,18 @@
+.history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .searchInput{
+        outline: none;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 7px;
+            margin-top: 30px;
+            padding: 10px;
+            width: 580px;
+            height: 70px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+    }
+}

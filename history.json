@@ -1,0 +1,26 @@
+{
+  "History": [
+    {
+      "id": 60,
+      "name": "Biceps leg raise",
+      "count": 8,
+      "difficulty": "beginner",
+      "musclePart": "Biceps",
+      "route": "BicepsBeginner",
+      "exactMuscle": "Biceps / Forearms",
+      "image": "/images/Leg-raising.jpg",
+      "instruction": "Stand against the wall . Raise your right leg, bend over. go ahead and grab your right ankle from below with your left hand. Lift the ankle as high as possible to the shoulder, and then lower it. Repeat the exercise."
+    },
+    {
+      "id": 28,
+      "name": "Swing",
+      "count": 20,
+      "difficulty": "beginner",
+      "musclePart": "Press",
+      "exactMuscle": "Press",
+      "instruction": "Sit on the floor, bend your knees. Lift the legs slightly, bend the body back. Connect your arms in front of your chest and make body turns from side to side.",
+      "image": "/images/Press.jpg",
+      "route": "PressBeginner"
+    }
+  ]
+}

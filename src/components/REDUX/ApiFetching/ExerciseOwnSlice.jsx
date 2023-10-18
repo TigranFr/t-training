@@ -8,7 +8,11 @@ export const ownexercisesByIdSlice = createSlice({
     error: null,
     ownexercise:  {},
   },
-  reducers: {},
+  reducers: {
+    clearExerciseItem: (state) => {
+      state.ownexercise = {}
+    }
+  },
   extraReducers: (builder) => {
     builder
       .addCase(getOwnExerciseById.pending, (state) => {
@@ -27,3 +31,6 @@ export const ownexercisesByIdSlice = createSlice({
       });
   },
 });
+
+
+export const { clearExerciseItem } = ownexercisesByIdSlice.actions;

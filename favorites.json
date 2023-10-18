@@ -1,6 +1,39 @@
 {
   "Favorites": [
     {
+      "id": 65,
+      "name": "Box",
+      "time": "30s",
+      "difficulty": "intermediate",
+      "musclePart": "Biceps",
+      "exactMuscle": "Triceps / Chest / Shoulders",
+      "route": "BicepsIntermediate",
+      "image": "/images/front-help-pushup.png",
+      "instruction": "Stand with one leg outstretched, knees slightly bent. Bend your arms at the elbows and clench your fists at face level. Straighten one arm forward , palm down . Return the arm to the starting position and repeat with the other hand."
+    },
+    {
+      "name": "Push up",
+      "count": 21,
+      "exactMuscle": "Chest / Triceps",
+      "image": "",
+      "difficulty": "beginner",
+      "musclePart": "Biceps",
+      "instruction": "good exercise ",
+      "id": 84,
+      "route": "profile"
+    },
+    {
+      "id": 58,
+      "name": "Crystal push ups",
+      "count": 6,
+      "difficulty": "beginner",
+      "musclePart": "Biceps",
+      "exactMuscle": "Chest / Triceps",
+      "image": "/images/front-help-pushup.png",
+      "instruction": "Take the usual push-up position, connect the index and thumbs. Do push-ups",
+      "route": "BicepsBeginner"
+    },
+    {
       "id": 54,
       "name": "Hand rotation",
       "time": "30s",
@@ -10,6 +43,72 @@
       "instruction": "Stand on the floor, stretch your arms at shoulder level, raise your arms above your head and return to the old position again",
       "route": "BicepsBeginner",
       "image": "/images/Hand-rotation.jpg"
+    },
+    {
+      "id": 29,
+      "name": "ABC",
+      "count": 16,
+      "difficulty": "beginner",
+      "musclePart": "Press",
+      "exactMuscle": "Press",
+      "instruction": "Lie on your back , legs bent at the knees , arms extended forward . Lift the case. Hold in the upper position for a few seconds and slowly return to the starting position. The main load falls on the rectus and oblique abdominal muscles.",
+      "image": "/images/Press.jpg",
+      "route": "PressBeginner"
+    },
+    {
+      "id": 3,
+      "name": "Push-up with a wide focus",
+      "count": 8,
+      "difficulty": "beginner",
+      "musclePart": "Chest",
+      "exactMuscle": "Chest / Triceps / Shoulders",
+      "image": "/images/front-help-pushup.png",
+      "instruction": "The starting position is the usual push-up position, but the emphasis is wider than the shoulders. Do push-ups. Don't forget to keep the body straight",
+      "route": "ChestBeginner"
+    },
+    {
+      "id": 42,
+      "name": "Angle",
+      "count": 20,
+      "difficulty": "intermediate",
+      "musclePart": "Press",
+      "exactMuscle": "Press / Four-headed muscle",
+      "instruction": "Lie on your back, arms and legs stretched out, legs together. Lift the body and legs, touch the socks with your hands. Return to the starting position and repeat the exercise.",
+      "route": "PressIntermediate",
+      "image": "/images/Angle.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Side bridge",
+      "count": 20,
+      "difficulty": "advanced",
+      "musclePart": "Press",
+      "exactMuscle": "Press / Buts / Adductors",
+      "instruction": "Lie down on your right side. Put your right elbow directly under your shoulder, put your left hand on your waist. Put your left foot on your right. Lift your hips, stay in this position for 2-4 seconds, return to the starting position.",
+      "route": "PressIntermediate",
+      "image": "/images/Side-bridge.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Swing",
+      "count": 20,
+      "difficulty": "beginner",
+      "musclePart": "Press",
+      "exactMuscle": "Press",
+      "instruction": "Sit on the floor, bend your knees. Lift the legs slightly, bend the body back. Connect your arms in front of your chest and make body turns from side to side.",
+      "image": "/images/Press.jpg",
+      "route": "PressBeginner"
+    },
+    {
+      "id": 60,
+      "name": "Biceps leg raise",
+      "count": 8,
+      "difficulty": "beginner",
+      "musclePart": "Biceps",
+      "route": "BicepsBeginner",
+      "exactMuscle": "Biceps / Forearms",
+      "image": "/images/Leg-raising.jpg",
+      "instruction": "Stand against the wall . Raise your right leg, bend over. go ahead and grab your right ankle from below with your left hand. Lift the ankle as high as possible to the shoulder, and then lower it. Repeat the exercise."
     }
   ]
 }

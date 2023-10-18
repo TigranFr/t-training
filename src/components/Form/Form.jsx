@@ -4,8 +4,9 @@ import { Controller, useForm } from 'react-hook-form';
 import { useCreateExerciseMutation } from '../REDUX/Api/exerciseApi';
 import styles from './Form.module.scss'
 import { Link } from 'react-router-dom';
+import { useGetExercisesQuery } from '../REDUX/Api/api';
 
-let count = 78;
+let identity = 78;
 const options = [
   {
     value: 'beginner',
@@ -38,7 +39,7 @@ const musclePartOptions = [
 
 const Form = () => {
     const [createExercise] = useCreateExerciseMutation();
-
+    const { data: ownexes } = useGetExercisesQuery();
     const {
         register,
         handleSubmit,
@@ -50,13 +51,27 @@ const Form = () => {
       });
     
       const onSubmit = async (data) => {
-        data.id = count;
+        if (ownexes) {
+          if (ownexes.length === 0) {
+            data.id = identity;
+          } else {
+            let i = ownexes[ownexes.length - 1].id;
+            data.id = i + 1;
+          }
+        }
+       
         data.count = parseInt(data.count);
         data.route = 'profile';
-        await createExercise(data);
-        reset();
-        count++; 
+        data.status = 'own';
+      
+        try {
+          await createExercise(data);
+          reset();
+        } catch (error) {
+          console.error("Error creating exercise:", error);
+        }
       };
+      
     
   return (
     <div className={styles.form}>
@@ -126,6 +141,7 @@ const Form = () => {
               placeholder="Exact Muscle..."
               type="text"
             />
+            
             <input
               {...register('image')}
               placeholder="Image link..."

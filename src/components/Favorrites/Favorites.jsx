@@ -2,11 +2,12 @@ import React from 'react'
 import {ExerciseItem,ExerciseOwnItem}  from '../index';
 import { Link } from 'react-router-dom'
 import styles from './Favorites.module.scss'
+import { useGetFavoritesQuery } from '../REDUX/Api/apiFavorites';
 
 
 const Favorites = ({favorites}) => {
 
-  console.log(favorites,"favorites");
+  const {data} = useGetFavoritesQuery()
 
   return (
 
@@ -16,7 +17,7 @@ const Favorites = ({favorites}) => {
               <h2>Favorite own exercises</h2>
               <div>
             {
-              favorites && favorites.map(exercise => exercise.route === 'profile' &&  <ExerciseOwnItem item={exercise}/>  )
+              data && data.map(exercise => exercise.route === 'profile' &&  <ExerciseOwnItem item={exercise} route="/favorites"/>  )
             }
           
           </div>
@@ -29,7 +30,7 @@ const Favorites = ({favorites}) => {
         <div className={styles.favorites}>
             <h2>Favorite exercises</h2>
             {
-            favorites && favorites.map(exercise => exercise.route !== 'profile' &&  <ExerciseItem item={exercise}/>  )
+           data &&data.map(exercise => exercise.route !== 'profile' &&  <ExerciseItem item={exercise} route="/favorites"/>  )
             }
         </div>
 

@@ -1,39 +1,56 @@
 import React from 'react'
-import { useDispatch} from 'react-redux'
 import { Link} from 'react-router-dom'
-import { getOwnExerciseById } from '../REDUX/ApiFetching/ExerciseActions';
 import { useDeleteExerciseMutation } from '../REDUX/Api/exerciseApi';
 import styles from './ExerciseOwnItem.module.scss'
 import { useGetFavoritesQuery } from '../REDUX/Api/apiFavorites';
 import { useAddFavoritesMutation, useDeleteFavoritesMutation } from '../REDUX/Api/favoritesApi';
+import { useCallback } from 'react';
+import { useDispatch } from 'react-redux'
+import { clearExerciseItem } from '../REDUX/ApiFetching/ExerciseOwnSlice';
+import { useAddToHistoryMutation } from '../REDUX/Api/apiHistory';
 
 
-const ExerciseOwnItem = ({item}) => {
-
-  console.log(item,);
-
+const ExerciseOwnItem = ({item , route}) => {
   const dispatch = useDispatch();
-  const {data} = useGetFavoritesQuery()
+
+  const cleanItem = useCallback(()=>{
+    dispatch(clearExerciseItem())
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[clearExerciseItem])
+
+  const {data , refetch} = useGetFavoritesQuery()
   const isExist = data?.some(favExercise => favExercise.id === item.id);
   const [addFavorites] = useAddFavoritesMutation();
   const [deleteFavorites] = useDeleteFavoritesMutation();
-
   const [deleteExercise] = useDeleteExerciseMutation();   
 
+  const [addToHistory] = useAddToHistoryMutation();
+
   return (
-   
     <div className={styles.exerciseBlock}>
 
           <div className = {styles.ownExerciseItem}>
-                <Link to={`/ExerciseDetailed/${item.id}`} className={`${styles.bx_menu} bx bx-menu`} onClick={()=>{
-                  dispatch(getOwnExerciseById(item.id));
-                  }}>
-                </Link>
+          <Link
+              to={
+                route === "/favorites"
+                  ? `/musclePart/OwnExercise/${item.id}/favorites`
+                  : route === "history"
+                  ? `/musclePart/OwnExercise/${item.id}/history`
+                  : `/musclePart/OwnExercise/${item.id}`
+              }
+              className={`${styles.bx_menu} bx bx-menu`}
+              onClick={() => {
+                cleanItem();
+                addToHistory(item);
+              }}
+          ></Link>
                 {isExist ? <i className={`${styles.bxs_heart} bx bxs-heart`}   onClick={()=>{
-                  deleteFavorites(item.id)
+                  deleteFavorites(item.id);
+                  refetch();
                 }}></i> : 
                 <i className={`${styles.bxs_heart} bx bx-heart`} onClick={()=>{
                   addFavorites(item)
+                  refetch()
                 }}></i> }
 
                 <i className={`${styles.bxs_trash} bx bxs-trash`}  onClick={()=>{

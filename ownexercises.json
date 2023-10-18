@@ -1,15 +1,63 @@
 {
   "Exercises": [
     {
-      "name": "Push up",
+      "name": "Push ups",
       "count": 20,
       "exactMuscle": "Chest / Triceps",
-      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFBgWFRUYGRgYGhwfHBgYHB0hIRoaGhwcIR0fHhodJC4lHB4sIx4dJzgmKy8xNTU1HCc7QDszPy40NTEBDAwMEA8QHhISHjQsISsxNDE0NDQ1ODQxPzU0NDQxNDQxMTE0MTE0ODQ0MTQxNTU0ODE0MTQ0MTQxNDQ3PzQ1NP/AABEIAKIBNwMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYDBAcBAgj/xABFEAACAQIDBAYGCAMHBAMBAAABAgADEQQSIQUxQVEGImFxgZETMkJSobEzYnKCssHR8AcjkhQ0Q3OiwuEks9LxFiXiFf/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgQDBf/EACMRAQEAAgEEAgIDAAAAAAAAAAABAhEDBBIhMUFRExRhgbH/2gAMAwEAAhEDEQA/AOzREQEREBERAREQETyaFbaKA5QdewboEhEjnx4U9Y/D9Ju06gYXEDJERAREQEREBERAREQEREBERAREQETFUq23T4Fc8oGxE+Fa+6fcBERAREQEREBERAREQEREBERAREQIvpBiGSgxU2YlQDyuwv8AC8qw2gqNk3knfw11tfnrJjpRUfMiX/luOsNN6spvffyFhzN+EouI2MrqxLuwLNYXPvabiO7dxkrUWw7SUWBGa49nX4Tf6P4k+lZAboUzC3A5hf8AF8JU8ZsJPTfy3dAFQjKSdy2Oub5cxzknsBWpsi02ZiWyszAXyeku2hGtwN459kFX2IiVkiIgIiICIiAiIgIiICIiAmOs2VWPIE+QmSRm3sV6OiW4XAPcdP0HjA+FxaniJm9IJzZ9pOtTKL3za9gB1kvidssEuupBHlxk2ul1w1cFsvME+Vv1m7KLsDapNVbe22XUcNC35S9SoREQEREBERAREQEREBERAREQEREDQ2rgFrUyrC5sSutrNYgajhrOSKrhypBZSCWUl",
+      "difficulty": "beginner",
+      "musclePart": "Biceps",
+      "instruction": "such a good ex",
+      "id": 83,
+      "route": "profile",
+      "status": "own"
+    },
+    {
+      "name": "Push up",
+      "count": 21,
+      "exactMuscle": "Chest / Triceps",
+      "image": "",
+      "difficulty": "beginner",
+      "musclePart": "Biceps",
+      "instruction": "good exercise ",
+      "id": 84,
+      "route": "profile",
+      "status": "own"
+    },
+    {
+      "name": "Reverse push up",
+      "count": 21,
+      "exactMuscle": "Chest / Triceps",
+      "image": "",
+      "difficulty": "intermediate",
+      "musclePart": "Biceps",
+      "instruction": "Good exercise for ...",
+      "id": 85,
+      "route": "profile",
+      "status": "own"
+    },
+    {
+      "name": "Indian push ups",
+      "count": 50,
+      "exactMuscle": "All body",
+      "image": "",
+      "difficulty": "advanced",
+      "musclePart": "Chest",
+      "instruction": "Good exercise for ..",
+      "id": 86,
+      "route": "profile",
+      "status": "own"
+    },
+    {
+      "name": "American push ups",
+      "count": 30,
+      "exactMuscle": "Biceps / Triceps",
+      "image": "",
       "difficulty": "intermediate",
       "musclePart": "Press",
-      "instruction": "Hello world\n",
-      "id": 78,
-      "route": "profile"
+      "instruction": "Good exercise for ... ",
+      "id": 87,
+      "route": "profile",
+      "status": "own"
     }
   ]
 }

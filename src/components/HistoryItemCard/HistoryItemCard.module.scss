@@ -1,0 +1,9 @@
+.mainBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 590px;
+    .trash{
+        font-size: 40px;
+    }
+}

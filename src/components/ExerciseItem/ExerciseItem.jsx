@@ -3,40 +3,53 @@ import { useCallback } from 'react';
 import { useDispatch } from 'react-redux'
 import { Link} from 'react-router-dom'
 import { useGetFavoritesQuery } from '../REDUX/Api/apiFavorites';
+import { useAddToHistoryMutation } from '../REDUX/Api/apiHistory';
 
 import { useAddFavoritesMutation, useDeleteFavoritesMutation } from '../REDUX/Api/favoritesApi';
 import { clearExerciseItem } from '../REDUX/ApiFetching/ExerciseByIdSlice';
 
 import styles from './ExerciseItem.module.scss'
 
-const ExerciseItem = ({item}) => {
-
-
+const ExerciseItem = ({item , route}) => {
   const dispatch = useDispatch();
 
-  const cleaItem = useCallback(()=>{
+  const cleanItem = useCallback(()=>{
     dispatch(clearExerciseItem())
   // eslint-disable-next-line react-hooks/exhaustive-deps
   },[clearExerciseItem])
-
-  const {data, refetch} = useGetFavoritesQuery()
-
-  const isExist = data?.some(favExercise => favExercise.id === item.id);
+  
+  const {data:favoritesData , refetch: favoriteRefetch} = useGetFavoritesQuery();
+  // const {data:historyData  , refetch:historyRefetch} =  useGetHistoryQuery();
+  const isExist = favoritesData?.some(favExercise => favExercise.id === item.id);
   const [addFavorites] = useAddFavoritesMutation();
   const [deleteFavorites] = useDeleteFavoritesMutation();
-
+  const [addToHistory] = useAddToHistoryMutation();
   return (
     <div className={styles.exerciseBlock}>
         <div className={styles.instructionBlock}>
-                <Link  to={`/musclePart/${item.route}/${item.id}`} className={`${styles.bx_menu} bx bx-menu`} onClick={cleaItem}>
-                </Link>
+        <Link
+          to={
+            route === "/favorites"
+              ? `/musclePart/${item.route}/${item.id}/favorites`
+              : route === "history"
+              ? `/musclePart/${item.route}/${item.id}/history`
+              : `/musclePart/${item.route}/${item.id}`
+          }
+          className={`${styles.bx_menu} bx bx-menu`}
+          onClick={() => {
+            cleanItem();
+            addToHistory(item);
+            // historyRefetch();
+          }}
+        ></Link>
+
                 {isExist ? <i className={`${styles.bxs_heart} bx bxs-heart`} onClick={()=>{
                   deleteFavorites(item.id);
-                  refetch()
+                  favoriteRefetch()
                 }}></i> : 
                 <i className={`${styles.bxs_heart} bx bx-heart`} onClick={()=>{
                   addFavorites(item)
-                  refetch()
+                  favoriteRefetch()
                 }}></i>  }
         </div>
            

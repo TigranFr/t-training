@@ -5,6 +5,7 @@ import { ExerciseOwnItem } from '../index';
 import ReactPaginate from 'react-paginate';
 
 const OwnExercises = () => {
+
   const { data, isLoading } = useGetExercisesQuery();
   const [exercises, setExercises] = useState([]);
   const [offset, setOffset] = useState(0); // Current page number
@@ -24,9 +25,7 @@ const OwnExercises = () => {
   
 
   useEffect(() => {
-    if (data) {
-      setExercises(data);
-    }
+      data && setExercises(data);
   }, [data]);
 
 
